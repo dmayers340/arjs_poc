@@ -10,5 +10,6 @@ Start the server in one of the following ways:
 If using yarn, you will first need to run yarn to install
 
 ## Model Credits:
-* Christmas Tree by [Deb Mayers](https://debmayers.com/)
-* Erlenmeyer Flask by [Google Poly](https://poly.google.com/view/advGpqPqy0P)
+* York Street and Argyle Street photogrammetry models by [Deb Mayers](https://debmayers.com/)
+* Christmas Tree Model, 3DS Max by [Deb Mayers](https://debmayers.com/)
+
