@@ -1,0 +1,275 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 56063,
+      "max": [
+        -2.1378269195556641,
+        27.203361511230469,
+        -2.9529330730438232
+      ],
+      "min": [
+        -17.463024139404297,
+        12.783084869384766,
+        -39.506332397460938
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 672756,
+      "componentType": 5126,
+      "count": 56063,
+      "max": [
+        0.99993467330932617,
+        0.99940162897109985,
+        0.99987149238586426
+      ],
+      "min": [
+        -0.99993270635604858,
+        -0.99999713897705078,
+        -0.99996459484100342
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 56063,
+      "max": [
+        0.99998104572296143,
+        0.99985730648040771,
+        0.99995958805084229,
+        1
+      ],
+      "min": [
+        -0.99999821186065674,
+        -0.99989265203475952,
+        -0.99998509883880615,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 897008,
+      "componentType": 5126,
+      "count": 56063,
+      "max": [
+        0.99215686321258545,
+        0.98039215803146362,
+        0.93725490570068359,
+        1
+      ],
+      "min": [
+        0.058823529630899429,
+        0.043137256056070328,
+        0.035294119268655777,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 56063,
+      "max": [
+        0.99873000383377075,
+        0.99999701976776123
+      ],
+      "min": [
+        1.4999999621068127e-05,
+        9.9999997473787516e-06
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 149997,
+      "max": [
+        56062
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "debmayers24 (https://sketchfab.com/debmayers24)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/glasgow-argyle-street-mural-acd2f72bd9c7470d85beaae62fcf8f9c",
+      "title": "Glasgow Argyle Street Mural"
+    },
+    "generator": "Sketchfab-6.49.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 599988,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 448504,
+      "byteOffset": 599988,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1345512,
+      "byteOffset": 1048492,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1794016,
+      "byteOffset": 2394004,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4188020,
+      "uri": "ArgyleStreet.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/tryone_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "tryone",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        -0.048338968306779861,
+        0,
+        -0.99883097410202026,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.99883097410202026,
+        0,
+        -0.048338968306779861,
+        0,
+        10.930561065673828,
+        0,
+        -32.044685363769531,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "tryone.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
