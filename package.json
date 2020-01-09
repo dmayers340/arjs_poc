@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn run serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,13 @@
   },
   "homepage": "https://github.com/dmayers340/arjs_poc#readme",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "serve": "^11.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "aframe": "^1.0.3",
+    "ar.js": "^2.1.4"
   }
 }

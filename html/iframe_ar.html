@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <script src="/dist/bundle.js"></script>
+
+    <title>AR.js Augmented Experiences</title>
+  </head>
+
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs="patternRatio: 0.90">
+      <a-marker
+        type="pattern"
+        preset="custom"
+        url="/patterns/science-center-logo.patt"
+      >
+        <a-entity
+          gltf-model="url(/models/YorkStreet.gltf)"
+          position="5 0 3"
+          scale=".3 .3 .3"
+          rotation="-46.57 25.82 -26.541"
+        ></a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="/patterns/squirrel.patt">
+        <a-entity
+          gltf-model="url(/models/ArgyleStreet.gltf)"
+          position="-5 0 0"
+          scale=".3 .3 .3"
+          rotation="32.298 -101.8 -14.073"
+        ></a-entity>
+      </a-marker>
+
+      <a-marker
+        type="pattern"
+        preset="custom"
+        url="/patterns/pattern-more_basic_ffg_marker.patt"
+      >
+        <a-box
+          color="blue"
+          position="0 10 0"
+          scale="1 1 1"
+          animation="property: position; to: 0 0 0; dur: 5000; loop: true;"
+        ></a-box>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
