@@ -2,8 +2,9 @@
 
 Project using AR.js and A-Frame.
 
-Start the server in one of the following ways:
+Start using the following commands ( in separate terminals ):
 
+- yarn build --watch
 - yarn start
 
 If using yarn, you will first need to run
